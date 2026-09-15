@@ -5,7 +5,24 @@
    Prices are in Tanzanian Shillings (TSh) as printed on the source menu.
    ========================================================================= */
 const MENU_DATA = [
+/* -----------------------------------------------------------------------
+     SOUP
+     ----------------------------------------------------------------------- */
 
+  {
+    id: "soup",
+    name: "Soup",
+
+    items: [
+      { name: "Vegetable Clear Soup", price: 7000 },
+      { name: "Tomato Soup", price: 7000 },
+      { name: "Chicken Corn Soup", price: 8000 },
+      { name: "Chicken Hot & Sour Soup", price: 8000 },
+      { name: "Chicken Manchow Soup", price: 8000 },
+      { name: "Chicken Cream Soup", price: 8000 }
+    ]
+  },
+   
   /* -----------------------------------------------------------------------
      BARBEQUE
      ----------------------------------------------------------------------- */
@@ -121,7 +138,7 @@ const MENU_DATA = [
   /* -----------------------------------------------------------------------
      INDIAN NON-VEG
      ----------------------------------------------------------------------- */
-
+4
   {
     id: "indian-non-veg",
     name: "Indian (Non-Veg)",
@@ -300,10 +317,7 @@ const MENU_DATA = [
   {
     id: "hanan-platters",
     name: "Hannan Kisinia's/Platters",
-
     note: "Take away Extra Charges 3,000/=",
-
-    sizeLabels: ["Small", "Large"],
 
     items: [
       {
@@ -322,32 +336,17 @@ const MENU_DATA = [
       },
 
       {
-        name: "Seafood PLatter",
-        small: 45000,
-        large: 90000
+        name: "Seafood PLatter (Small)",
+        price: 45000
+      },
+
+       {
+        name: "Seafood PLatter (Large)",
+        price: 90000
       }
+       
     ]
   },
-
-
-  /* -----------------------------------------------------------------------
-     SOUP
-     ----------------------------------------------------------------------- */
-
-  {
-    id: "soup",
-    name: "Soup",
-
-    items: [
-      { name: "Vegetable Clear Soup", price: 7000 },
-      { name: "Tomato Soup", price: 7000 },
-      { name: "Chicken Corn Soup", price: 8000 },
-      { name: "Chicken Hot & Sour Soup", price: 8000 },
-      { name: "Chicken Manchow Soup", price: 8000 },
-      { name: "Chicken Cream Soup", price: 8000 }
-    ]
-  },
-
 
   /* -----------------------------------------------------------------------
      ZANZIBAR PIZZA
