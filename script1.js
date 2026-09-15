@@ -4,7 +4,7 @@
    edit this array only — the page renders itself from this data.
    Prices are in Tanzanian Shillings (TSh) as printed on the source menu.
    ========================================================================= */
-onst MENU_DATA = [
+const MENU_DATA = [
 
   /* -----------------------------------------------------------------------
      BARBEQUE
