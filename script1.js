@@ -139,7 +139,6 @@ const MENU_DATA = [
   /* -----------------------------------------------------------------------
      INDIAN NON-VEG
      ----------------------------------------------------------------------- */
-4
   {
     id: "indian-non-veg",
     name: "Indian (Non-Veg)",
@@ -345,7 +344,6 @@ const MENU_DATA = [
         name: "Seafood PLatter (Large)",
         price: 90000
       }
-       
     ]
   },
 
