@@ -372,7 +372,7 @@ const MENU_DATA = [
    The WhatsApp number that receives orders is configured here.
    ========================================================================= */
 
-const WHATSAPP_NUMBER = "25577455433";
+const WHATSAPP_NUMBER = "255777455433";
 const RESTAURANT_NAME = "Bismillah Hanan Fast Food";
 const CART_STORAGE_KEY = "bismillahHananCart";
 
