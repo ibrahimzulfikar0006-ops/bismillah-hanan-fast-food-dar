@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bismillah Hanan Fast Food | Tasty, Healthy &amp; Lovely</title>
+  <meta name="description" content="Welcome to Bismillah Hanan Fast Food. View our table menu or order your favourite meals online.">
+
+  <!-- Google Fonts: Playfair Display for headings, Poppins for body text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================
+     HEADER
+     ========================================================= -->
+
+<header class="site-header">
+
+  <div class="header-inner">
+
+    <!-- Restaurant Logo -->
+    <div class="brand-logo">
+      <img
+        src="logo.png"
+        alt="Bismillah Hanan Fast Food Logo"
+      />
+    </div>
+
+    <!-- Restaurant Brand -->
+    <div class="brand-copy">
+
+      <p class="brand-eyebrow">Bismillah</p>
+
+      <h1 class="brand-name">
+        Hanan Fast Food
+      </h1>
+
+      <p class="brand-tagline">
+        Tasty, Healthy &amp; Lovely
+      </p>
+
+    </div>
+
+    <!-- Header Information -->
+    <div class="header-strip">
+
+      <div class="header-strip-item">
+        <span class="header-icon">📍</span>
+        <span>Fire &amp; Mazengo Street, Upanga </span>
+      </div>
+
+      <div class="header-strip-item">
+        <span class="header-icon">📞</span>
+        <a href="tel:0655657788">0655 657 788</a>
+      </div>
+
+      <div class="header-strip-item">
+        <span class="header-icon">📞</span>
+        <a href="tel:0787100555">0787100555</a>
+      </div>
+
+      <div class="header-strip-item">
+        <span class="header-icon">🛵</span>
+        <span>Home Delivery Available</span>
+      </div>
+
+    </div>
+
+  </div>
+
+</header>
+
+<main>
+    <!-- ============ HERO / WELCOME SECTION ============ -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="hero-kicker">Bismillah Hanan Fast Food</p>
+          <h1 id="hero-heading">Welcome!</h1>
+          <p class="hero-tagline">Tasty, Healthy &amp; Lovely.</p>
+          <p class="hero-copy">Enjoy delicious meals and explore our menu, or order your favourite food online — whichever suits you best today.</p>
+          <a href="#choose" class="hero-scroll-cta">
+            <span>See your options</span>
+            <span class="hero-scroll-arrow" aria-hidden="true">↓</span>
+          </a>
+        </div>
+
+        <div class="hero-media">
+          <!-- Hero image: replace images/hero.jpg with the real photo when available -->
+          <div class="hero-image-frame">
+            <img
+              src="hero.jpeg"
+              alt="A warm plate of freshly prepared food from Bismillah Hanan Fast Food"
+              class="hero-image"
+              onerror="this.closest('.hero-image-frame').classList.add('image-fallback')"
+            >
+            <div class="fallback-label" aria-hidden="true">
+              <span>Add hero.jpg</span>
+              <small>images/hero.jpg — 1000×1200px recommended</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TWO MAIN OPTIONS ============ -->
+    <section class="choose" id="choose" aria-labelledby="choose-heading">
+      <h2 id="choose-heading" class="section-heading">How would you like to continue?</h2>
+
+      <div class="choice-grid">
+
+        <!-- Card 1: Table Menu -->
+        <a href="index1.html" class="choice-card choice-card--menu">
+          <span class="choice-icon" aria-hidden="true">📖</span>
+          <h3>Table Menu</h3>
+          <p>View our menu and explore our delicious meals.</p>
+          <span class="choice-button">View Table Menu</span>
+        </a>
+
+        <!-- Card 2: Order Online -->
+        <a href="index2.html" class="choice-card choice-card--order">
+          <span class="choice-icon" aria-hidden="true">🛒</span>
+          <h3>Order Online</h3>
+          <p>Browse our menu and place your order online.</p>
+          <span class="choice-button">Order Online</span>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- ============ FEATURED FOOD SECTION ============ -->
+    <section class="featured" aria-labelledby="featured-heading">
+      <h2 id="featured-heading" class="section-heading">A Taste You'll Love</h2>
+
+      <div class="featured-track">
+        <figure class="food-card">
+          <div class="food-image-frame">
+            <img src="food1.jpeg" alt="Crispy fried chicken" loading="lazy" onerror="this.closest('.food-image-frame').classList.add('image-fallback')">
+            <div class="fallback-label" aria-hidden="true"><span>Add food1.jpg</span></div>
+          </div>
+          <figcaption>Fried Chicken</figcaption>
+        </figure>
+
+        <figure class="food-card">
+          <div class="food-image-frame">
+            <img src="food1.jpeg" alt="Golden crispy chips" loading="lazy" onerror="this.closest('.food-image-frame').classList.add('image-fallback')">
+            <div class="fallback-label" aria-hidden="true"><span>Add food2.jpg</span></div>
+          </div>
+          <figcaption>Chips</figcaption>
+        </figure>
+
+        <figure class="food-card">
+          <div class="food-image-frame">
+            <img src="food2.jpeg" alt="Juicy grilled burger" loading="lazy" onerror="this.closest('.food-image-frame').classList.add('image-fallback')">
+            <div class="fallback-label" aria-hidden="true"><span>Add food3.jpg</span></div>
+          </div>
+          <figcaption>Burgers</figcaption>
+        </figure>
+
+        <figure class="food-card">
+          <div class="food-image-frame">
+            <img src="food2.jpeg" alt="Flavourful rice dish" loading="lazy" onerror="this.closest('.food-image-frame').classList.add('image-fallback')">
+            <div class="fallback-label" aria-hidden="true"><span>Add food4.jpg</span></div>
+          </div>
+          <figcaption>Rice Dishes</figcaption>
+        </figure>
+		
+		<figure class="food-card">
+          <div class="food-image-frame">
+            <img src="food2.jpeg" alt="Flavourful rice dish" loading="lazy" onerror="this.closest('.food-image-frame').classList.add('image-fallback')">
+            <div class="fallback-label" aria-hidden="true"><span>Add food4.jpg</span></div>
+          </div>
+          <figcaption>Rice Dishes</figcaption>
+        </figure>
+		
+		<figure class="food-card">
+          <div class="food-image-frame">
+            <img src="food2.jpeg" alt="Flavourful rice dish" loading="lazy" onerror="this.closest('.food-image-frame').classList.add('image-fallback')">
+            <div class="fallback-label" aria-hidden="true"><span>Add food4.jpg</span></div>
+          </div>
+          <figcaption>Rice Dishes</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT SECTION ============ -->
+    <section class="about" aria-labelledby="about-heading">
+      <div class="about-inner">
+        <div class="about-image-frame">
+          <img src="images/about.jpg" alt="Inside Bismillah Hanan Fast Food restaurant" loading="lazy" onerror="this.closest('.about-image-frame').classList.add('image-fallback')">
+          <div class="fallback-label" aria-hidden="true"><span>Add about.jpg</span></div>
+        </div>
+        <div class="about-text">
+          <h2 id="about-heading" class="section-heading section-heading--left">About Bismillah Hanan Fast Food</h2>
+          <p>Welcome to Bismillah Hanan Fast Food, where great taste meets a warm and friendly experience. Explore our menu, discover your favourite meals and enjoy delicious food made for you.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HOW IT WORKS ============ -->
+    <section class="steps" aria-labelledby="steps-heading">
+      <h2 id="steps-heading" class="section-heading">How Would You Like To Order?</h2>
+
+      <ol class="steps-list">
+        <li class="step">
+          <span class="step-number" aria-hidden="true">1</span>
+          <h3>Choose an option</h3>
+          <p>Table Menu or Order Online.</p>
+        </li>
+        <li class="step">
+          <span class="step-number" aria-hidden="true">2</span>
+          <h3>Explore our menu</h3>
+          <p>Browse our available food and drinks.</p>
+        </li>
+        <li class="step">
+          <span class="step-number" aria-hidden="true">3</span>
+          <h3>Enjoy your meal</h3>
+          <p>Choose your favourite food and enjoy.</p>
+        </li>
+      </ol>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-brand">Bismillah Hanan Fast Food</p>
+      <p class="footer-tagline">Tasty, Healthy &amp; Lovely.</p>
+
+      <nav aria-label="Footer navigation">
+        <ul class="footer-links">
+          <li><a href="index1.html">Table Menu</a></li>
+          <li><a href="index2.html">Order Online</a></li>
+        </ul>
+      </nav>
+
+      <p class="footer-copyright">© 2026 Bismillah Hanan Fast Food. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
