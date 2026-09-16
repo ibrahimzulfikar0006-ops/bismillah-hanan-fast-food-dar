@@ -295,19 +295,38 @@ const MENU_DATA = [
     sizeLabels: ["Small", "Large"],
 
     items: [
-      { name: "Chicken Pizza", small: 11000, large: 15000 },
-      { name: "Chicken Tikka Pizza", small: 11000, large: 15000 },
-      { name: "Hawaii Pizza", small: 11000, large: 15000 },
-      { name: "Raskazoni Pizza", small: 11000, large: 15000 },
-      { name: "Veg Pizza", small: 11000, large: 15000 },
-      { name: "Beef Pizza", small: 11000, large: 15000 },
-      { name: "Mef Pizza", small: 11000, large: 15000 },
-      { name: "Egg Pizza", small: 11000, large: 15000 },
+      { name: "Chicken Pizza", small: 12000, large: 18000 },
+      { name: "Chicken Tikka Pizza", small: 12000, large: 18000 },
+      { name: "Hawaii Pizza", small: 12000, large: 18000 },
+      { name: "Raskazoni Pizza", small: 12000, large: 18000 },
+      { name: "Veg Pizza", small: 12000, large: 18000 },
+      { name: "Beef Pizza", small: 12000, large: 18000 },
+      { name: "Mef Pizza", small: 12000, large: 18000 },
+      { name: "Egg Pizza", small: 12000, large: 18000 },
       { name: "Prawns Pizza", small: 17000, large: 22000 },
       { name: "Calamari Pizza", small: 17000, large: 22000 },
       { name: "Paneer Tikka Pizza", small: 17000, large: 22000 }
     ]
   },
+
+   /* -----------------------------------------------------------------------
+     ZANZIBAR PIZZA
+     ----------------------------------------------------------------------- */
+
+  {
+    id: "zanzibar-pizza",
+    name: "Zanzibar Pizza",
+
+    items: [
+      { name: "Beef Znz Pizza", price: 5000 },
+      { name: "Chicken Znz Pizza", price: 5000 },
+      { name: "Veg Znz Pizza", price: 5000 },
+      { name: "Nutella Pizza", price: 6000 },
+      { name: "Beef Roll", price: 10000 },
+      { name: "Chicken Roll", price: 10000 }
+    ]
+  },
+
 
 
   /* -----------------------------------------------------------------------
@@ -347,24 +366,35 @@ const MENU_DATA = [
     ]
   },
 
-  /* -----------------------------------------------------------------------
-     ZANZIBAR PIZZA
-     ----------------------------------------------------------------------- */
-
-  {
-    id: "zanzibar-pizza",
-    name: "Zanzibar Pizza",
-
+     {
+    id: "juice",
+    name: "Juice",
     items: [
-      { name: "Beef Znz Pizza", price: 4000 },
-      { name: "Chicken Znz Pizza", price: 4000 },
-      { name: "Veg Znz Pizza", price: 4000 },
-      { name: "Nutella Pizza", price: 6000 },
-      { name: "Beef Roll", price: 10000 },
-      { name: "Chicken Roll", price: 10000 }
-    ]
-  }
-
+      { name: "Water Melon Juice", price: 3000 },
+      { name: "Mango Juice", price: 3000 },
+      { name: "Pineapple Juice", price: 3000 },
+      { name: "Passion Juice", price: 3000 },
+      { name: "Bungo Juice", price: 3000 },
+      { name: "Apple Juice", price: 3000 },
+      { name: "Lemon Juice", price: 3000 },
+      { name: "Lemon Mint Juice", price: 3000 },
+      { name: "Orange Juice", price: 3000 },
+      { name: "Avocado Juice", price: 3000 },
+      { name: "Kungu Juice", price: 3000 },
+      { name: "Zambarau Juice", price: 3000 },
+      { name: "Date Juice", price: 4000 },
+    ],
+  },
+  {
+    id: "drinks",
+    name: "Drinks",
+    items: [
+      { name: "Soft Drinks", price: 1500 },
+      { name: "Water (1.5 Ltrs)", price: 1000 },
+      { name: "Water (500ml)", price: 500 },
+      { name: "Hill Sparkling Water (500ml)", price: 500 },
+    ],
+  },
 ];
 
 /* =========================================================================
@@ -372,7 +402,7 @@ const MENU_DATA = [
    The WhatsApp number that receives orders is configured here.
    ========================================================================= */
 
-const WHATSAPP_NUMBER = "255777455433";
+const WHATSAPP_NUMBER = "255789100555";
 const RESTAURANT_NAME = "Bismillah Hanan Fast Food";
 const CART_STORAGE_KEY = "bismillahHananCart";
 
