@@ -295,21 +295,38 @@ const MENU_DATA = [
     sizeLabels: ["Small", "Large"],
 
     items: [
-      { name: "Chicken Pizza", small: 11000, large: 15000 },
-      { name: "Chicken Tikka Pizza", small: 11000, large: 15000 },
-      { name: "Hawaii Pizza", small: 11000, large: 15000 },
-      { name: "Raskazoni Pizza", small: 11000, large: 15000 },
-      { name: "Veg Pizza", small: 11000, large: 15000 },
-      { name: "Beef Pizza", small: 11000, large: 15000 },
-      { name: "Mef Pizza", small: 11000, large: 15000 },
-      { name: "Egg Pizza", small: 11000, large: 15000 },
+      { name: "Chicken Pizza", small: 12000, large: 18000 },
+      { name: "Chicken Tikka Pizza", small: 12000, large: 18000 },
+      { name: "Hawaii Pizza", small: 12000, large: 18000 },
+      { name: "Raskazoni Pizza", small: 12000, large: 18000 },
+      { name: "Veg Pizza", small: 12000, large: 18000 },
+      { name: "Beef Pizza", small: 12000, large: 18000 },
+      { name: "Mef Pizza", small: 12000, large: 18000 },
+      { name: "Egg Pizza", small: 12000, large: 18000 },
       { name: "Prawns Pizza", small: 17000, large: 22000 },
       { name: "Calamari Pizza", small: 17000, large: 22000 },
       { name: "Paneer Tikka Pizza", small: 17000, large: 22000 }
     ]
   },
 
+/* -----------------------------------------------------------------------
+     ZANZIBAR PIZZA
+     ----------------------------------------------------------------------- */
 
+  {
+    id: "zanzibar-pizza",
+    name: "Zanzibar Pizza",
+
+    items: [
+      { name: "Beef Znz Pizza", price: 5000 },
+      { name: "Chicken Znz Pizza", price: 5000 },
+      { name: "Veg Znz Pizza", price: 5000 },
+      { name: "Nutella Pizza", price: 6000 },
+      { name: "Beef Roll", price: 10000 },
+      { name: "Chicken Roll", price: 10000 }
+    ]
+  },
+   
   /* -----------------------------------------------------------------------
      HANNAN KISINIA'S / PLATTERS
      ----------------------------------------------------------------------- */
@@ -344,24 +361,6 @@ const MENU_DATA = [
         name: "Seafood PLatter (Large)",
         price: 90000
       }
-    ]
-  },
-
-  /* -----------------------------------------------------------------------
-     ZANZIBAR PIZZA
-     ----------------------------------------------------------------------- */
-
-  {
-    id: "zanzibar-pizza",
-    name: "Zanzibar Pizza",
-
-    items: [
-      { name: "Beef Znz Pizza", price: 4000 },
-      { name: "Chicken Znz Pizza", price: 4000 },
-      { name: "Veg Znz Pizza", price: 4000 },
-      { name: "Nutella Pizza", price: 6000 },
-      { name: "Beef Roll", price: 10000 },
-      { name: "Chicken Roll", price: 10000 }
     ]
   }
 
